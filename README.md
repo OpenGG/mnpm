@@ -1,0 +1,2 @@
+# mnpm
+mnpm init script
