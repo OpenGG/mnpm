@@ -32,7 +32,7 @@ fi
 SOURCE_STR='alias mnpm="npm \
   --registry=http://r.npm.sankuai.com \
   --cache=$HOME/.cache/mnpm \
-  --disturl=http://npm.sankuai.com/dist/node \
+  --disturl=http://npm.sankuai.com/mirrors/node \
   --userconfig=$HOME/.mnpmrc"'
 
 # profile path

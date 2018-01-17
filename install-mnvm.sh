@@ -26,7 +26,7 @@ if has "mnvm"; then
 fi
 
 # alias string
-SOURCE_STR='alias mnvm="NVM_NODEJS_ORG_MIRROR=http://npm.sankuai.com/dist/node NVM_IOJS_ORG_MIRROR=http://npm.sankuai.com/dist/iojs nvm"'
+SOURCE_STR='alias mnvm="NVM_NODEJS_ORG_MIRROR=http://npm.sankuai.com/mirrors/node NVM_IOJS_ORG_MIRROR=http://npm.sankuai.com/mirrors/iojs nvm"'
 
 # profile path
 PROFILE="$HOME/.profile"

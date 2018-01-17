@@ -46,7 +46,7 @@ echo "=> init .myarnrc file"
 RC_STR="
 registry=http://r.npm.sankuai.com
 cache=$HOME/.cache/myarn
-disturl=http://npm.sankuai.com/dist/node
+disturl=http://npm.sankuai.com/mirrors/node
 "
 
 RC="$HOME/.myarnrc"
