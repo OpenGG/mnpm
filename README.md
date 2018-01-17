@@ -20,7 +20,7 @@ Notes: `mnvm`, `mnpm` and `myarn` are just aliases.
 0. Install Node.js with `mnvm`
 
     ```bash
-    mnvm install 8
+    mnvm install stable
     ```
 
 0. Install `mnpm`
