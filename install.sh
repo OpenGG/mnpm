@@ -10,7 +10,7 @@ echo "0. Checking npm version..."
 
 version=`npm --version 2>/dev/null`
 
-if ! [ $version ]; then
+if [ -z $version ]; then
   echo >&2 "=> Command npm not found. You should install Node.js, visit https://github.com/creationix/nvm"
   exit -1
 fi

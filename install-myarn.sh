@@ -10,7 +10,7 @@ echo "0. Checking node version..."
 
 version=`node --version 2>/dev/null`
 
-if ! [ $version ]; then
+if [ -z $version ]; then
   echo >&2 "=> Command node not found. You should install Node.js, visit https://github.com/creationix/nvm"
   exit -1
 fi
@@ -22,7 +22,7 @@ echo "1. Checking yarn version..."
 
 version=`yarn --version 2>/dev/null`
 
-if ! [ $version ]; then
+if [ -z $version ]; then
   echo >&2 "=> Command yarn not found. You should install yarn, visit https://yarnpkg.com/lang/en/docs/install/"
   exit -4
 fi

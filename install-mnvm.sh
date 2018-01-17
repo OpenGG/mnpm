@@ -10,8 +10,8 @@ echo "0. Checking nvm version..."
 
 version=`nvm --version 2>/dev/null`
 
-if ! [ $version ]; then
-  echo >&2 "=> Command node not found. You should install nvm, visit https://github.com/creationix/nvm"
+if [ -z $version ]; then
+  echo >&2 "=> Command nvm not found. You should install nvm, visit https://github.com/creationix/nvm"
   exit -1
 fi
 
