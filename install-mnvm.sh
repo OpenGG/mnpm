@@ -8,6 +8,8 @@ has() {
 # check nodejs
 echo "0. Checking nvm version..."
 
+. ~/.nvm/nvm.sh
+
 version=`nvm --version 2>/dev/null`
 
 if [ -z $version ]; then
